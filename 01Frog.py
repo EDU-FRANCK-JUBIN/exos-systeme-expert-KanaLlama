@@ -6,6 +6,7 @@ Ceci est un script temporaire.
 """
 
 from pyDatalog import pyDatalog
+pyDatalog.clear()
 pyDatalog.create_terms('X, eatFiles, green, yellow, croakes, chirps, sings, canary, frog, P')
 
 load("""
